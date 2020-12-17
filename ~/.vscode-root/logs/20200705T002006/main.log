@@ -1,0 +1,4 @@
+[2020-07-05 00:20:07.234] [main] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/catkin_ws/src/~/.vscode-root/User'
+[2020-07-05 00:20:07.966] [main] [info] update#setState idle
+[2020-07-05 00:20:37.967] [main] [info] update#setState checking for updates
+[2020-07-05 00:20:39.133] [main] [info] update#setState available for download

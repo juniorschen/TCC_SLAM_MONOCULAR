@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot name="alphabot">
+ <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.2"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+ <link name="camera_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.05"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+ <joint name="base_to_camera" type="continuous">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <axis xyz="0 0 0.010"/>
+    <origin xyz="0 0 0.10"/>
+  </joint>
+
+</robot>

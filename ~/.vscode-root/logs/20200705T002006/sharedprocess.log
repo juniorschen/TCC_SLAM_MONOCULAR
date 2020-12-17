@@ -1,0 +1,3 @@
+[2020-07-05 00:20:17.268] [sharedprocess] [info] main {"machineId":"65d4bed7388a20867aa4a7438fd312f29f2479b7fa67a8298e9473386925b034","windowId":2}
+[2020-07-05 00:20:17.985] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/catkin_ws/src/~/.vscode-root/User/snippets'
+[2020-07-05 00:20:57.574] [sharedprocess] [info] Starting to clean up unused language packs.
